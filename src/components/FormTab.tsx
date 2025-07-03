@@ -87,7 +87,7 @@ export const FormTab: React.FC<FormTabProps> = ({ category, title }) => {
           <div className="relative">
             <label className="block text-sm font-medium text-gray-700 mb-2">
               <Calendar className="inline w-4 h-4 mr-2" />
-              Date
+              Date Of Filling Form
             </label>
             <input
               type="date"
