@@ -1,10 +1,10 @@
-# Divine Forms Portal
+# Daily Task Updates
 
-A beautiful, responsive two-tab application for managing spiritual journey entries with real-time synchronization.
+A beautiful, responsive two-tab application for managing Daily Task Updates entries with real-time synchronization.
 
 ## Features
 
-- **Two-Tab Layout**: Separate forms for Vishnu and Krishna entries
+- **Two-Tab Layout**: Separate forms for A and B entries
 - **Real-time Sync**: All data syncs instantly across sessions using Supabase
 - **Beautiful Design**: Modern glass-morphism design with smooth animations
 - **Form Validation**: Client-side validation for all required fields
@@ -115,7 +115,7 @@ src/
 
 The `form_entries` table contains:
 - `id` (UUID, Primary Key)
-- `category` ('vishnu' or 'krishna')
+- `category` ('A' or 'B')
 - `date` (Date)
 - `referral_link` (Text/URL)
 - `comment` (Text)
