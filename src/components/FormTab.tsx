@@ -175,7 +175,7 @@ export const FormTab: React.FC<FormTabProps> = ({ category, title }) => {
 
       {/* Entries Table */}
       <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-white/20">
-        <h3 className="text-xl font-bold text-gray-800 mb-6">Submitted Entries</h3>
+        <h3 className="text-xl font-bold text-gray-800 mb-6">Submitted Entries For EveryDay</h3>
         
         {error && (
           <div className="mb-4 p-4 bg-red-50 border border-red-200 rounded-xl text-red-700">
@@ -186,7 +186,7 @@ export const FormTab: React.FC<FormTabProps> = ({ category, title }) => {
         {loading ? (
           <div className="flex items-center justify-center py-8">
             <Loader2 className="w-6 h-6 animate-spin text-gray-500" />
-            <span className="ml-2 text-gray-500">Loading entries...</span>
+            <span className="ml-2 text-gray-500">Loading entries For EvevyDay</span>
           </div>
         ) : entries.length === 0 ? (
           <div className="text-center py-12 text-gray-500">
