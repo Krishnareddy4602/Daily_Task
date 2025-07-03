@@ -78,7 +78,7 @@ export const FormTab: React.FC<FormTabProps> = ({ category, title }) => {
       {/* Form Section */}
       <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-white/20">
         <h2 className="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-3">
-          <div className={`w-3 h-3 rounded-full ${category === 'vishnu' ? 'bg-blue-500' : 'bg-purple-500'}`}></div>
+          <div className={`w-3 h-3 rounded-full ${category === 'A' ? 'bg-blue-500' : 'bg-purple-500'}`}></div>
           {title} Form
         </h2>
         
@@ -153,7 +153,7 @@ export const FormTab: React.FC<FormTabProps> = ({ category, title }) => {
             type="submit"
             disabled={submitting}
             className={`w-full py-3 px-6 rounded-xl font-semibold text-white transition-all duration-200 transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-opacity-50 ${
-              category === 'vishnu'
+              category === 'A'
                 ? 'bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 focus:ring-blue-500'
                 : 'bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 focus:ring-purple-500'
             } disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none`}
