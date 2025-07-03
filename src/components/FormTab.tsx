@@ -4,7 +4,7 @@ import { useFormEntries } from '../hooks/useFormEntries';
 import { FormEntry } from '../types/database';
 
 interface FormTabProps {
-  category: 'vishnu' | 'krishna';
+  category: 'A' | 'B';
   title: string;
 }
 
